@@ -1,0 +1,23 @@
+{
+  "identifier": "de.kudusch.Duplicator",
+  "name": "Duplicator",
+  "organization": "Kudusch",
+  "description": "Duplicate a line of text or a selection with a keystroke.",
+  "version": "1.0.0",
+  "categories": ["commands"],
+  "repository": "https://github.com/kudusch/nova-duplicator",
+  "bugs": "https://github.com/kudusch/nova-duplicator/issues",
+  "main": "main.js",
+  "license": "MIT",
+  "homepage": "https://kudusch.de",
+  "commands": {
+    "editor": [
+      {
+        "title": "Duplicator",
+        "when": "editorHasFocus",
+        "shortcut": "cmd-shift-d",
+        "command": "duplicateText"
+      }
+    ]
+  }
+}
